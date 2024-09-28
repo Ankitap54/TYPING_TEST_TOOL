@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 90%;
+    width: 90%;
+    /* background: linear-gradient(to right, black, rgb(19, 20, 20)); */
+ background-size: cover;
+    /* background-image: url("https://images.unsplash.com/photo-1611594150014-1d390f1eb263?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
+    object-position: center;
+    background-image: url("key2.png");
+
+}
+
+ 
+#head {
+    font-family: "Quando", serif;
+    font-size: 6vh;
+    padding-bottom: px;
+    padding-top: 30px;
+    color: white;
+    
+    text-decoration:underline 4px solid rgb(247, 234, 186); 
+}
+
+.box {
+    background: linear-gradient(to left , rgba(0, 0, 0, 0.982), rgba(197, 182, 128, 0.897) ,rgba(17, 17, 103, 0.817), rgba(27, 27, 130, 0.603) , rgba(20, 20, 98, 0.597), rgba(8, 8, 71, 0.56),
+    rgba(17, 17, 103, 0.794) ,rgba(198, 183, 126, 0.884),rgb(0, 0, 0));
+    margin-top: 7.6vh;
+    margin-left: 40vh;
+    height: 86vh;
+    width: 150vh;
+    text-align: center; 
+    border-radius: 13px;
+    position: absolute;
+    
+}
+
+#para {
+    padding: 20px;
+   
+    color: rgb(247, 234, 186);
+    /* font-family: sans-serif; */
+    font-size: 3vh;
+    /* font-weight: bold; */ 
+    line-height: 4.3vh;
+    display: none;
+    word-wrap: break-word;
+    /* font-family: "Playfair Display", serif; */
+    font-family: "Quando", serif;
+
+}
+
+.box h3 {
+    /* padding: 10px; */
+    position: absolute;
+    top: 380px;
+    left: 345px;
+    font-size: 4vh;
+    font-family:  "Quando", serif;
+    color: white;
+}
+
+#timer{
+    color: white;
+    top: 5vh;
+    left: 14vh;
+    font-size: 6vh ;
+    position: absolute;
+}
+#icon{
+    color:azure;
+    position: absolute;
+    top: 3.5vh;
+    left: 4vh;
+    font-size: 10vh;
+}
+
+#input {
+    height: 17vh;
+    width: 130vh;
+    margin: 10vh;
+    border-radius: 16px;
+    border: none;
+    background-color: rgba(192, 203, 233, 0.63);
+}
+#S{
+    margin-left: 17VH;
+    
+    position: absolute;
+    font-family: "Quando", serif;
+    color: rgb(253, 237, 181);
+    font-size: 4vh;
+}
+#A{
+    margin-left: 105VH;
+    position: absolute;
+    font-family: "Quando", serif;
+    color: rgb(253, 237, 181);
+    font-size: 4vh;
+}
+
+
+#btn1{
+    border-radius: 10px;
+    border: none;
+    font-size: 3.4vh;
+    font-weight: bold;
+    background-color: rgb(201, 216, 238);
+    padding: 7px 22px 7px 22px;
+    cursor: pointer;
+    
+    
+} 
+#btn1::after{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 100vh;
+    background-color: black;
+    display: none;
+
+}
+#btn2{
+    position:absolute;
+    margin-top: -200px;
+    margin-left: 150px;
+    opacity: 0;
+    border-radius: 10px;
+    border: none;
+    font-size: 3.4vh;
+    font-weight: bold;
+    background-color: rgb(201, 216, 238);
+    padding: 7px 22px 7px 22px;
+    cursor: pointer;
+}
+#btn1:hover{
+    background-color: rgb(107, 149, 221);
+    border-radius:20px ;
+    padding: 8px 25px 8px 25px;
+    color: black;
+   
+}
+#btn2:hover{
+    background-color: rgb(107, 149, 221);
+    border-radius:20px ;
+    padding: 8px 25px 8px 25px;
+    color: black;
+   
+}
+
